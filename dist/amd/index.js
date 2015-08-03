@@ -1,12 +1,16 @@
-define(['exports'], function (exports) {
+define(['exports', './firebase-array'], function (exports, _firebaseArray) {
   'use strict';
 
   Object.defineProperty(exports, '__esModule', {
     value: true
   });
   exports.configure = configure;
+  Object.defineProperty(exports, 'FirebaseArray', {
+    enumerable: true,
+    get: function get() {
+      return _firebaseArray.FirebaseArray;
+    }
+  });
 
-  function configure(aurelia) {
-    aurelia.globalizeResources('./firebase-array');
-  }
+  function configure(aurelia) {}
 });

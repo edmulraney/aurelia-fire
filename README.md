@@ -1,2 +1,2 @@
 # aurelia-fire
-A Firebase adaptor for Aurelia
+A Firebase adapter for Aurelia

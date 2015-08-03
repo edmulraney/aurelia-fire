@@ -5,6 +5,13 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports.configure = configure;
 
-function configure(aurelia) {
-  aurelia.globalizeResources('./firebase-array');
-}
+var _firebaseArray = require('./firebase-array');
+
+Object.defineProperty(exports, 'FirebaseArray', {
+  enumerable: true,
+  get: function get() {
+    return _firebaseArray.FirebaseArray;
+  }
+});
+
+function configure(aurelia) {}

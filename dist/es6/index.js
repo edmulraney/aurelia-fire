@@ -1,3 +1,4 @@
+export {FirebaseArray} from './firebase-array';
+
 export function configure(aurelia) {
-  aurelia.globalizeResources('./firebase-array');
 }
