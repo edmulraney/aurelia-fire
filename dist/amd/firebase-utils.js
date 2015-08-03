@@ -134,7 +134,7 @@ define(['exports', 'lodash'], function (exports, _lodash) {
         _2['default'].extend(rec, data);
         rec.$priority = snap.getPriority();
 
-        return !areEqual(oldData, rec) || oldData.$value !== rec.$value || oldData.$priority !== rec.$priority;
+        return !this.areEqual(oldData, rec) || oldData.$value !== rec.$value || oldData.$priority !== rec.$priority;
       }
     }, {
       key: 'toJSON',

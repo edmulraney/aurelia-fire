@@ -122,7 +122,7 @@ export class FirebaseUtils {
     _.extend(rec, data);//.$value = data;
     rec.$priority = snap.getPriority();
 
-    return !areEqual(oldData, rec) ||
+    return !this.areEqual(oldData, rec) ||
       oldData.$value !== rec.$value ||
       oldData.$priority !== rec.$priority;
   }
