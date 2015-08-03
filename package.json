@@ -6,7 +6,7 @@
     "aurelia",
     "firebase",
     "plugin",
-    "adaptor",
+    "adaptor"
   ],
   "homepage": "https://github.com/edmulraney/aurelia-fire",
   "bugs": {
