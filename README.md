@@ -18,9 +18,9 @@ export class Example {
   }
 
   add() {
-    let rand = Math.floor(Math.random() * 1000) + 1;
+    let id = Math.floor(Math.random() * 1000) + 1;
     let name = Math.random().toString(36).substring(7);
-    this.people.add({Id: rand, Name: name});
+    this.people.add({Id: id, Name: name});
   }
 
   remove(id) {
@@ -30,7 +30,7 @@ export class Example {
 
   update() {
     this.people[0].Name = "rename-" + Math.random().toString(36).substring(5);
-    this.people.save(this.plants[0]);
+    this.people.save(this.people[0]);
   }
 }
 ```
