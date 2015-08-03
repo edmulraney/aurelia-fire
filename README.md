@@ -2,7 +2,8 @@
 A Firebase adapter for Aurelia
 
 # Install
-```jspm install aurelia-fire=github:edmulraney/angular-fire
+```
+jspm install aurelia-fire=github:edmulraney/angular-fire
 ```
 
 # Usage
@@ -35,8 +36,8 @@ export class Example {
 ```
 
 # Todo
-Tests
-FirebaseObject
-Authentication
-Extract FirebaseUtils into proper classes
-Documentation
+- Tests
+- FirebaseObject
+- Authentication
+- Extract FirebaseUtils into proper classes
+- Documentation
