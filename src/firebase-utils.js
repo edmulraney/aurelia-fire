@@ -87,6 +87,7 @@ export class FirebaseUtils {
   trimKeys(dest, source) {
     this.each(dest, (v,k) => {
       if(!source.hasOwnProperty(k)) {
+        console.log("k", k);
         delete dest[k];
       }
     });
