@@ -1,5 +1,5 @@
 # aurelia-fire
-A Firebase adapter plugin for Aurelia. Based on [AngularFire](https://www.firebase.com/docs/web/libraries/angular)
+A Firebase adapter plugin for Aurelia. Based on [AngularFire](https://www.firebase.com/docs/web/libraries/angular).
 
 This plugin provides synchronized firebase arrays, objects and authentication. You'll need to install this plugin with jspm and then add it to your Aurelia startup as a plugin.
 
@@ -81,7 +81,6 @@ export class Example {
 
   constructor() {
     this.ref = new Firebase('https://INSTANCE.firebaseio.com/people');
-    this.person = {};
     this.obj = new FirebaseObject(this.ref).then(result => this.person = result);
   }
 
