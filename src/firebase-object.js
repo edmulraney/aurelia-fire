@@ -13,7 +13,7 @@ export class FirebaseObject {
     this.$value = null;
 
     this._sync = new ObjectSyncManager(this);
-    // Optional three way bind (doesn't require 'save'ing. Auto updates on changes.)
+    // Optional three way bind (auto-syncs with Firebase DB)
     this._binding = new ThreeWayBinding(this);
 
     return this._sync.init();
